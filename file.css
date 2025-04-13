@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'cursive',cursive,serif;
+    background: url('https://i.pinimg.com/1200x/21/2c/40/212c40ebb27666c01f8860e573cbf12e.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #0c0101;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .clock {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .tabs button {
+    padding: 10px 15px;
+    margin: 5px;
+    background: #ffc0cb;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .tabs button:hover {
+    background: #ffa6c1;
+  }
+  
+  .feature {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  input[type="time"], input[type="number"] {
+    background: #fff0f5;
+  }
+  
+  button {
+    background-color: #ffd1dc;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ffb6c1;
+  }
+  

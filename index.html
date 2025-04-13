@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cute Digital Clock</title>
+  <link rel="stylesheet" href="file.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Waste your time wisely!</h1>
+    
+    <div class="clock" id="clock"></div>
+    
+    <div class="tabs">
+      <button onclick="showTab('alarm')">Alarm</button>
+      <button onclick="showTab('timer')">Timer</button>
+      <button onclick="showTab('stopwatch')">Stopwatch</button>
+    </div>
+
+    <div class="feature" id="alarm">
+      <input type="time" id="alarmTime"/>
+      <button onclick="setAlarm()">Set Alarm</button>
+      <p id="alarmStatus"></p>
+    </div>
+
+    <div class="feature" id="timer">
+      <input type="number" id="timerMinutes" placeholder="Minutes" min="1"/>
+      <button onclick="startTimer()">Start Timer</button>
+      <p id="timerDisplay">00:00</p>
+    </div>
+
+    <div class="feature" id="stopwatch">
+      <p id="stopwatchDisplay">00:00:00</p>
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="resetStopwatch()">Reset</button>
+    </div>
+  </div>
+
+  <script src="file.js"></script>
+</body>
+</html>
